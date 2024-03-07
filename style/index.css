@@ -147,10 +147,53 @@
 @media screen and (max-width:688px) {
     .header-taitle{
         display: flex;
+        /* flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: center; */
+      text-align: center;
     }
     .nav-taitle nav{
         display: none;
+    }
+    /* frist section */
+    .container{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .section-taitle{
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-sub-taitle{
+        text-align: center;
+    }
+    .preebook-button{
+       margin-left: 110px;
+    }
+    .icons{
+        align-items: center;
+        margin-left: 40px;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: center;
+    }
+    .Popular-items{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        gap: 25px 0;
+    }
+    .featured-products-img{
+       margin-left: -0%;
+    }
+    .featured-products{
+        flex-direction: column;
+    }
+    .footer{
+       margin-left: 30px;
+        width: 100%;
+        
     }
 }
